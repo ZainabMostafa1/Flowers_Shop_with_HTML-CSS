@@ -1,0 +1,44 @@
+
+@font-face
+			{
+				font-family: myfont;
+				src:url(fonts/OEZwr2-ovBsq2n3ACCKoEjUe2wjZSDd4ua_dT9VBiU4.woff2);
+
+			}
+
+.mytxt	h1{
+	margin: 0 auto;
+	background-color: #ffe6e6;
+	font-size: 45px;
+	text-align: center;
+	font-family: myfont;
+}		
+
+
+.mytxt p{
+	padding: 20px;
+	margin: 0 auto;
+	background-color:#ffe6e6;
+	text-align: center;
+	font-size: 40px;
+    font-family: myfont;
+
+
+
+/*.mytxt h1 {
+    background-color: pink;
+	
+	text-align: center;
+	font-size: 35px;
+    font-family: myfont;
+}
+  p{
+ 	background-color: pink;
+     text-align: center;
+ 	color: white;
+ 	font-size: 25px;
+    font-family: myfont;
+
+ }*/
+
+

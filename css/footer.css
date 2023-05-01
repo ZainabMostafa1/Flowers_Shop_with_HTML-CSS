@@ -1,0 +1,151 @@
+* {
+	/*-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+	-o-box-sizing:border-box;
+	box-sizing:border-box;*/
+	margin:0;
+	padding:0;
+	}
+body{
+	padding: 0;
+	margin: 0;
+    background-color: #fff;
+	 }
+      @font-face
+            {
+                font-family: myfont;
+                src:url(fonts/OEZwr2-ovBsq2n3ACCKoEjUe2wjZSDd4ua_dT9VBiU4.woff2);
+
+            }
+
+.footer {
+    width: 100%;
+    height: 400px;
+   
+    padding: 20px;
+   background-color:#fefbfa;
+}
+.footer h1 {
+    text-align: center;
+    color: black;
+    margin: 20px;
+    font-family: 'myfont','tahoma';
+    font-size: 40px;
+}
+
+.footer h2 {
+    text-align: center;
+    color: black;
+    margin: 20px;
+    font-family: cursive;
+}
+
+
+
+.footer form {
+    text-align: center;
+    
+            
+    width: 70% ;
+    margin: auto ;
+}
+.footer input[type=text]{
+   height: 50px;
+    width: 400px;
+    
+    margin-left: 50px;
+    font-size: 21px;
+    background-color: white;
+   
+    color: #616161;
+    border-radius: 5px;
+}
+
+.footer button {
+    height: 50px;
+    width: 200px;
+    
+    margin-left: 50px;
+    font-size: 21px;
+    background-color: white;
+    
+    color: #616161;
+    border-radius: 5px;
+}
+.footer .social {
+    text-align: center;
+    /*  margin: 10px;
+
+    width: 100% ;*/
+
+    text-align: center;
+}
+.footer .social i {
+    display: inline-block;
+    padding: 7px;
+    text-decoration: none;
+
+    font-size: 20px ;
+    margin: 10px;
+    transition: all .5s ease-out;
+}
+.footer .social i:hover {
+    transform: scale(1.5,1.5);
+    font-size: 30px;
+    cursor: pointer;
+}
+ 
+.copy {
+    width: 100%;
+    height: 25px;
+    background-color:#fefbfa;
+    color: #616161;
+    text-align: center;
+    padding: 10px;
+   
+}
+    /*footer css*/
+             f-des{
+            text-align: center;
+              
+             color: black;
+            margin-bottom: 60px;
+        }
+     
+     ul {
+        list-style: none;
+        padding:0;
+        font-family: "myfont1","tahoma";
+        }
+        @font-face
+            {
+                font-family: myfont;
+                src:url(font/rxxXUYj4oZ6Q5oDJFtEd6vk_vArhqVIZ0nv9q090hN8.woff2);
+
+            }
+        
+        
+          .links {
+              text-align: center;
+              margin-top: 60px;
+        float: none;
+        }
+
+    .links li {
+        display:inline-block;
+        padding:  7px;
+        
+        }
+    .links li a {
+        text-decoration: none;     
+        transition: all .5s ease-in-out;
+        color: black;
+        font-size: 20px;
+        margin-left: 10px;
+        }
+   .links li a i {
+        margin-right: 25px;
+        margin-left:10px;
+        overflow: hidden;
+        text-align: center;
+    }
